@@ -13,7 +13,7 @@ def timer(n):
     
 
 def remind_to_drink_water(interval_minutes):
-    interval_seconds = interval_minutes * 60
+    interval_seconds = interval_minutes 
     count = 0
     while True:
         print("Running...", count)
@@ -26,5 +26,5 @@ def remind_to_drink_water(interval_minutes):
         )
 
 # Set the interval time in minutes
-interval_minutes = 1  # for example, set to 60 minutes
+interval_minutes = 0.05  # for example, set to 60 minutes
 remind_to_drink_water(interval_minutes)
